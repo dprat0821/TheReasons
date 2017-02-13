@@ -12,6 +12,11 @@
 		ABDA4B6F1E4F7EC000D3225C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDA4B6E1E4F7EC000D3225C /* Assets.xcassets */; };
 		ABDA4B721E4F7EC000D3225C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDA4B701E4F7EC000D3225C /* Main.storyboard */; };
 		ABDA4B7D1E4F7EC000D3225C /* ReasonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA4B7C1E4F7EC000D3225C /* ReasonsTests.swift */; };
+		ABDA4B8C1E4F906200D3225C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA4B8B1E4F906200D3225C /* Item.swift */; };
+		ABDA4B8E1E4F917900D3225C /* IOJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA4B8D1E4F917900D3225C /* IOJSON.swift */; };
+		ABDA4B901E4F926B00D3225C /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA4B8F1E4F926B00D3225C /* Error.swift */; };
+		ABDA4B921E4FC96A00D3225C /* ManagerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA4B911E4FC96A00D3225C /* ManagerData.swift */; };
+		ABDA4B941E501E4F00D3225C /* items.json in Resources */ = {isa = PBXBuildFile; fileRef = ABDA4B931E501E4F00D3225C /* items.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,12 @@
 		ABDA4B781E4F7EC000D3225C /* ReasonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReasonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDA4B7C1E4F7EC000D3225C /* ReasonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReasonsTests.swift; sourceTree = "<group>"; };
 		ABDA4B7E1E4F7EC000D3225C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDA4B8B1E4F906200D3225C /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		ABDA4B8D1E4F917900D3225C /* IOJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOJSON.swift; sourceTree = "<group>"; };
+		ABDA4B8F1E4F926B00D3225C /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		ABDA4B911E4FC96A00D3225C /* ManagerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerData.swift; sourceTree = "<group>"; };
+		ABDA4B931E501E4F00D3225C /* items.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = items.json; sourceTree = "<group>"; };
+		ABDA4B951E508F5800D3225C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +86,9 @@
 		ABDA4B691E4F7EC000D3225C /* Reasons */ = {
 			isa = PBXGroup;
 			children = (
+				ABDA4B931E501E4F00D3225C /* items.json */,
+				ABDA4B881E4F8AE700D3225C /* Service */,
+				ABDA4B871E4F8AE100D3225C /* Model */,
 				ABDA4B6A1E4F7EC000D3225C /* AppDelegate.swift */,
 				ABDA4B6C1E4F7EC000D3225C /* ViewController.swift */,
 				ABDA4B6E1E4F7EC000D3225C /* Assets.xcassets */,
@@ -93,6 +107,24 @@
 			path = ReasonsTests;
 			sourceTree = "<group>";
 		};
+		ABDA4B871E4F8AE100D3225C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABDA4B8B1E4F906200D3225C /* Item.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ABDA4B881E4F8AE700D3225C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				ABDA4B8D1E4F917900D3225C /* IOJSON.swift */,
+				ABDA4B8F1E4F926B00D3225C /* Error.swift */,
+				ABDA4B911E4FC96A00D3225C /* ManagerData.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,6 +135,7 @@
 				ABDA4B631E4F7EC000D3225C /* Sources */,
 				ABDA4B641E4F7EC000D3225C /* Frameworks */,
 				ABDA4B651E4F7EC000D3225C /* Resources */,
+				ABDA4B971E51539200D3225C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -180,6 +213,7 @@
 			files = (
 				ABDA4B6F1E4F7EC000D3225C /* Assets.xcassets in Resources */,
 				ABDA4B721E4F7EC000D3225C /* Main.storyboard in Resources */,
+				ABDA4B941E501E4F00D3225C /* items.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,12 +226,32 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ABDA4B971E51539200D3225C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ABDA4B631E4F7EC000D3225C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABDA4B921E4FC96A00D3225C /* ManagerData.swift in Sources */,
+				ABDA4B8E1E4F917900D3225C /* IOJSON.swift in Sources */,
 				ABDA4B6D1E4F7EC000D3225C /* ViewController.swift in Sources */,
+				ABDA4B8C1E4F906200D3225C /* Item.swift in Sources */,
+				ABDA4B901E4F926B00D3225C /* Error.swift in Sources */,
 				ABDA4B6B1E4F7EC000D3225C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +279,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				ABDA4B711E4F7EC000D3225C /* Base */,
+				ABDA4B951E508F5800D3225C /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -236,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -285,6 +341,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -401,6 +458,7 @@
 				ABDA4B831E4F7EC000D3225C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABDA4B841E4F7EC000D3225C /* Build configuration list for PBXNativeTarget "ReasonsTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +467,7 @@
 				ABDA4B861E4F7EC000D3225C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
