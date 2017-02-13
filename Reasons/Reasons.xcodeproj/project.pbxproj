@@ -17,9 +17,9 @@
 		ABDA4B901E4F926B00D3225C /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA4B8F1E4F926B00D3225C /* Error.swift */; };
 		ABDA4B921E4FC96A00D3225C /* ManagerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA4B911E4FC96A00D3225C /* ManagerData.swift */; };
 		ABDA4B941E501E4F00D3225C /* items.json in Resources */ = {isa = PBXBuildFile; fileRef = ABDA4B931E501E4F00D3225C /* items.json */; };
-		ABDA4B991E51772100D3225C /* bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ABDA4B981E51772100D3225C /* bgm.mp3 */; };
 		ABDA4B9B1E5178EA00D3225C /* ManagerBGM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA4B9A1E5178EA00D3225C /* ManagerBGM.swift */; };
 		ABDA4B9E1E5179B500D3225C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDA4B9D1E5179B500D3225C /* AVFoundation.framework */; };
+		ABDA4BD21E51DDD800D3225C /* bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ABDA4BD11E51DDD800D3225C /* bgm.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,9 +48,9 @@
 		ABDA4B911E4FC96A00D3225C /* ManagerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerData.swift; sourceTree = "<group>"; };
 		ABDA4B931E501E4F00D3225C /* items.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = items.json; sourceTree = "<group>"; };
 		ABDA4B951E508F5800D3225C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
-		ABDA4B981E51772100D3225C /* bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bgm.mp3; path = Edit/bgm.mp3; sourceTree = SOURCE_ROOT; };
 		ABDA4B9A1E5178EA00D3225C /* ManagerBGM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerBGM.swift; sourceTree = "<group>"; };
 		ABDA4B9D1E5179B500D3225C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ABDA4BD11E51DDD800D3225C /* bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bgm.mp3; path = Edit/bgm.mp3; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,7 @@
 		ABDA4B691E4F7EC000D3225C /* Reasons */ = {
 			isa = PBXGroup;
 			children = (
-				ABDA4B981E51772100D3225C /* bgm.mp3 */,
+				ABDA4BD11E51DDD800D3225C /* bgm.mp3 */,
 				ABDA4B931E501E4F00D3225C /* items.json */,
 				ABDA4B881E4F8AE700D3225C /* Service */,
 				ABDA4B871E4F8AE100D3225C /* Model */,
@@ -212,6 +212,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = ABDA4B5E1E4F7EC000D3225C;
 			productRefGroup = ABDA4B681E4F7EC000D3225C /* Products */;
@@ -232,7 +233,7 @@
 				ABDA4B6F1E4F7EC000D3225C /* Assets.xcassets in Resources */,
 				ABDA4B721E4F7EC000D3225C /* Main.storyboard in Resources */,
 				ABDA4B941E501E4F00D3225C /* items.json in Resources */,
-				ABDA4B991E51772100D3225C /* bgm.mp3 in Resources */,
+				ABDA4BD21E51DDD800D3225C /* bgm.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
