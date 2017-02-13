@@ -1,21 +1,21 @@
 [
   {
-    "reason": "Because of your shaming face was so cute when we first met",
-    "question": "The day we first met (in dd/MM/YY)",
+    "reason": "Because I can never forget your cute face when we first met",
+    "question": "The date we first met (in dd/MM/YY)",
     "answer": "12/08/09",
     "tip": "",
     "id": 0
   },
   {
-    "reason": "You've cooked me so many meals",
-    "question": "The food you love most while I HATE most",
+    "reason": "You've cooked me so many yummy food",
+    "question": "The food you love most while I hate most",
     "answer": "Gedatang",
-    "tip": "Made in your hometown",
+    "tip": "",
     "id": 1
   },
   {
     "reason": "I know all your little secrets",
-    "question": "Where did we take the first meal?",
+    "question": "The café where we broke up for the second time",
     "answer": "SculptureTime",
     "tip": "",
     "id": 2

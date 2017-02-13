@@ -17,7 +17,7 @@ extension IndexSet{
 
 
 class ViewController: NSViewController,NSTableViewDelegate, NSTableViewDataSource {
-
+    @IBOutlet weak var btPlay: NSButton!
     @IBOutlet weak var tbMenu: NSTableView!
     @IBOutlet weak var lbTitle: NSTextField!
     @IBOutlet weak var lbText: NSTextField!
@@ -27,6 +27,19 @@ class ViewController: NSViewController,NSTableViewDelegate, NSTableViewDataSourc
     
     
     var itemNow: Item = managerData.items[0]
+    
+    @IBAction func onClickPlay(_ sender: Any) {
+        if managerBGM.isPlaying {
+            managerBGM.isPlaying = false
+            btPlay.image = NSImage(named: "iconPlay")
+        }
+        else{
+            managerBGM.isPlaying = true
+            btPlay.image = NSImage(named: "iconPause")
+        }
+    }
+    
+    
     
     @IBAction func onSubmitAnswer(_ sender: Any) {
         if itemNow.isPassed  {
@@ -125,6 +138,8 @@ class ViewController: NSViewController,NSTableViewDelegate, NSTableViewDataSourc
         
         //let startSelectedItemId = min(managerData.latestItemId + 1, managerData.items.count - 1)
         itemNow = managerData.next()
+        managerBGM.isPlaying = true
+        btPlay.image = NSImage(named: "iconPause")
         
         tbMenu.reloadData()
         delay(0.5){

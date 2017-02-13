@@ -23,32 +23,46 @@ typealias HandlerInput = ([Dict], Error?) ->()
 typealias HandlerOutput = (Error?)->()
 
 class IOJSON {
-    func input(file name:String, handlerDict:HandlerInput) {
-        guard let path = Bundle.main.url(forResource: name, withExtension: "json") else {
-            handlerDict([Dict](),Error(code: (101,"file not exist") ))
-            return
+    func input(file name:String, isBundle:Bool = true,handlerDict:HandlerInput) {
+        var path : URL?
+        if isBundle {
+            path = Bundle.main.url(forResource: name, withExtension: "json")
+            guard path != nil else {
+                handlerDict([Dict](),Error(code: (101,"file not exist") ))
+                return
+            }
+        }
+        else{
+            path = getDocumentsDirectory().appendingPathComponent("\(name).json")
         }
         
-        do {
-            let data = try Data(contentsOf:path)
-            let json = try JSONSerialization.jsonObject(with: data, options: [])
-            
-            var arr: [Dict] = [Dict]()
-            
-            if let dict = json as? Dict{
-                arr = [dict]
+        
+        if let path = path {
+            do {
+                let data = try Data(contentsOf:path)
+                let json = try JSONSerialization.jsonObject(with: data, options: [])
+                
+                var arr: [Dict] = [Dict]()
+                
+                if let dict = json as? Dict{
+                    arr = [dict]
+                }
+                else if let a = json as? [Dict]{
+                    arr = a
+                }
+                else{
+                    handlerDict([Dict](),Error(code: (102,"Invalid input structure") ))
+                }
+                
+                handlerDict(arr,nil)
+            }catch{
+                handlerDict([Dict](), error)
             }
-            else if let a = json as? [Dict]{
-                arr = a
-            }
-            else{
-                handlerDict([Dict](),Error(code: (102,"Invalid input structure") ))
-            }
-            
-            handlerDict(arr,nil)
-        }catch{
-            handlerDict([Dict](), error)
         }
+        else{
+            handlerDict([Dict](),Error(code: (101,"file not exist") ))
+        }
+        
         
         
         

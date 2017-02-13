@@ -39,7 +39,7 @@ class ManagerData {
             }
         }
         
-        io.input(file: "answers"){ (array, error) in
+        io.input(file: "answers", isBundle: false){ (array, error) in
             if let error = error {
                 print("Input Answers error: \(error.localizedDescription)")
 
@@ -121,10 +121,11 @@ class ManagerData {
             let id = item.id
             i["id"] = id
             i["attempts"] = item.attmptedAnswers
+            i["pass"] = item.isPassed
             d.append(i)
         }
         
-        io.output(d, to: "answers"){ (error) in
+        io.output(d, to: "answers.json"){ (error) in
             if error != nil {
                 self.save()
             }

@@ -12,7 +12,7 @@
         </output>
     </defaults>
     <source>
-        <file name="SampleData.xlsx"> <!--Example of input source file with relative path. Use "SampleData", "SampleData.xls", "/Data/SampleData", etc -->
+        <file name="Edit/Data.xlsx"> <!--Example of input source file with relative path. Use "SampleData", "SampleData.xls", "/Data/SampleData", etc -->
             <sheet name="items" ></sheet> <!--Example of source sheet. The terminal will throw a warning if the sheet is non-existent or invalid -->
         </file>
     </source>
