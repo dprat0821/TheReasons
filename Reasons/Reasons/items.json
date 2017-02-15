@@ -1,14 +1,14 @@
 [
   {
-    "reason": "Because I can never forget your cute face when we first met",
-    "question": "The date we first met (in dd/MM/YY)",
+    "reason": "因为初见时你娇羞的微笑我永远忘不了。可惜现在看不到了",
+    "question": "我们初次见面的日期 (in dd/MM/YY)",
     "answer": "12/08/09",
     "tip": "",
     "id": 0
   },
   {
     "reason": "You've cooked me so many yummy food",
-    "question": "The food you love most while I hate most",
+    "question": "",
     "answer": "Gedatang",
     "tip": "",
     "id": 1
@@ -19,5 +19,649 @@
     "answer": "SculptureTime",
     "tip": "",
     "id": 2
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 3
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 4
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 5
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 6
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 7
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 8
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 9
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 10
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 11
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 12
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 13
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 14
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 15
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 16
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 17
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 18
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 19
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 20
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 21
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 22
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 23
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 24
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 25
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 26
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 27
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 28
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 29
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 30
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 31
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 32
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 33
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 34
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 35
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 36
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 37
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 38
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 39
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 40
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 41
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 42
+  },
+  {
+    "reason": "",
+    "question": "你最喜欢但我不喜欢的食物",
+    "answer": "疙瘩汤",
+    "tip": "",
+    "id": 43
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 44
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 45
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 46
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 47
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 48
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 49
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 50
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 51
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 52
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 53
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 54
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 55
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 56
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 57
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 58
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 59
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 60
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 61
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 62
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 63
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 64
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 65
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 66
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 67
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 68
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 69
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 70
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 71
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 72
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 73
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 74
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 75
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 76
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 77
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 78
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 79
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 80
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 81
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 82
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 83
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 84
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 85
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 86
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 87
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 88
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 89
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 90
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 91
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 92
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 93
+  },
+  {
+    "reason": "",
+    "question": "",
+    "answer": "",
+    "tip": "",
+    "id": 94
   }
 ]

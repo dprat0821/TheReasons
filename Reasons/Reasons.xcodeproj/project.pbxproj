@@ -408,6 +408,7 @@
 				DEVELOPMENT_TEAM = 34JYY8BQ79;
 				INFOPLIST_FILE = Reasons/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.geekmouse.Reasons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -422,6 +423,7 @@
 				DEVELOPMENT_TEAM = 34JYY8BQ79;
 				INFOPLIST_FILE = Reasons/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.geekmouse.Reasons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
